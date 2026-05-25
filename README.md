@@ -132,8 +132,8 @@ I am focused on AI SaaS products that include real application logic:
 ## `> neofetch`
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Shifu710&show_icons=true&theme=transparent&hide_border=true" alt="GitHub Stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shifu710&layout=compact&theme=transparent&hide_border=true" alt="Top Languages" />
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Shifu710&theme=transparent" alt="GitHub Stats" />
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Shifu710&theme=transparent" alt="Top Languages" />
 </p>
 
 <p align="center">
