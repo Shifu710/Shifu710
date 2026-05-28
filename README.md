@@ -15,14 +15,15 @@ const mohamed = {
   focus: [
     "AI SaaS Applications",
     "RAG / Document Intelligence",
+    "AI Agent Workflow Automation",
     "Credits-based LLM Workflows",
     "Full-Stack Product Engineering",
     "China-focused AI Native Development",
   ],
   currentWork:
-    "Building real portfolio projects that show authentication, credits, usage logs, dashboards, AI model calls, RAG, and production-style workflows.",
+    "Building real portfolio projects that demonstrate RAG, agent workflows, authentication, RBAC, credits, usage logs, dashboards, model gateways, and production-style deployment.",
   positioning:
-    "I use AI tools as part of the engineering workflow, but I focus on shipping complete products, not only generating code.",
+    "I use AI tools as part of the engineering workflow, but I focus on shipping complete, testable products with honest documentation.",
   lookingFor: [
     "AI Native Full-Stack Developer",
     "AI SaaS 全栈工程师",
@@ -58,11 +59,11 @@ const mohamed = {
 
 #### Backend & Database
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat&logoColor=white)
+![Alembic](https://img.shields.io/badge/Alembic-Migrations-blue?style=flat)
 
 #### AI Native Stack
 
@@ -70,8 +71,8 @@ const mohamed = {
 ![DeepSeek](https://img.shields.io/badge/DeepSeek-1E90FF?style=flat&logoColor=white)
 ![Qwen](https://img.shields.io/badge/Qwen-FF6A00?style=flat&logoColor=white)
 ![RAG](https://img.shields.io/badge/RAG-Document_Intelligence-blue?style=flat)
-![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=flat&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-Agent_Workflows-black?style=flat)
+![MCP-style](https://img.shields.io/badge/MCP--style-Tool_Gateway-purple?style=flat)
 
 #### Tools & Deployment
 
@@ -79,21 +80,40 @@ const mohamed = {
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat&logo=render&logoColor=black)
 ![Cursor](https://img.shields.io/badge/Cursor_AI-000000?style=flat&logoColor=white)
+![Windsurf](https://img.shields.io/badge/Windsurf_AI-2563EB?style=flat&logoColor=white)
 ![OpenAI Codex](https://img.shields.io/badge/OpenAI_Codex-412991?style=flat&logo=openai&logoColor=white)
 
 ---
 
-## `> ls -la ~/projects`
+## `> ls -la ~/flagship-projects`
 
-| Project | Status | What it demonstrates | Stack |
-|---|---|---|---|
-| [SmartDocs AI](https://github.com/Shifu710/smartdocs-ai) | Production-style portfolio demo | Enterprise RAG SaaS: workspaces, document upload, cited RAG chat, RBAC, credits, usage logs, ModelGateway, demo-local fallback | Next.js, FastAPI, PostgreSQL, LangGraph, RAG |
-| [AI Workstation Credits MVP](https://github.com/Shifu710/ai-workstation-credits-mvp) | AI SaaS MVP | Login, default credits, successful-call billing, failed-call protection, usage logs, DeepSeek-first model integration | TypeScript, Next.js, Supabase, AI API |
-| [JobFit AI](https://github.com/Shifu710/jobfit-ai) | Portfolio project | AI resume matching and bilingual career improvement assistant | TypeScript, Next.js, AI API |
-| [SupportPilot AI](https://github.com/Shifu710/supportpilot-ai) | Portfolio project | AI customer support and WeCom-style CRM dashboard for business workflows | TypeScript, Next.js, Dashboard UI |
-| [MiniShop Pro](https://github.com/Shifu710/minishop-pro) | Portfolio project | WeChat Mini Program-style e-commerce / booking system with admin dashboard | TypeScript, Mini Program-style UI, Admin Panel |
-| [Personal Portfolio](https://jamiesec.dev/) | Live website | Personal brand, project presentation, contact path for recruiters and technical reviewers | Frontend, Portfolio, Deployment |
+### 1. SmartDocs AI — Enterprise RAG SaaS Platform
+
+- **Live Demo:** https://smartdocs-ai-three.vercel.app/
+- **GitHub:** https://github.com/Shifu710/smartdocs-ai
+- **Focus:** Enterprise document intelligence, cited RAG chat, workspace RBAC, credits, usage logs, ModelGateway, demo-local fallback.
+- **Stack:** Next.js, FastAPI, PostgreSQL, pgvector-style retrieval, LangGraph, RAG.
+
+SmartDocs AI proves I can build a production-style AI SaaS product beyond a simple chatbot. It includes document upload, parsing, hybrid retrieval, source citations, workspace isolation, credit billing, usage logs, and honest public-demo constraints.
+
+### 2. TaskFlow AI — Enterprise AI Agent Workflow Automation Platform
+
+- **Live Demo:** https://taskflow-ai-seven-eosin.vercel.app
+- **GitHub:** https://github.com/Shifu710/taskflow-ai
+- **Backend:** Render FastAPI API with managed PostgreSQL.
+- **Focus:** Agent workflow automation, LangGraph runtime, MCP-style internal tool gateway, human approval, live trace, usage logs, credits, replay, AgentOps dashboard.
+- **Stack:** Next.js, FastAPI, PostgreSQL, SQLAlchemy, Alembic, LangGraph, Vercel, Render.
+
+TaskFlow AI demonstrates real AI agent workflow execution: a planner starts the run, demo tools execute, approval pauses the workflow, the user approves, the run resumes, the reviewer/finalizer completes, usage logs are written, credits are deducted, and the run can be replayed.
+
+### Other portfolio projects
+
+- [SupportPilot AI](https://github.com/Shifu710/supportpilot-ai) — AI customer support and CRM-style dashboard.
+- [JobFit AI](https://github.com/Shifu710/jobfit-ai) — AI resume matching and bilingual career assistant.
+- [MiniShop Pro](https://github.com/Shifu710/minishop-pro) — Mini Program-style e-commerce / booking system.
+- [Personal Portfolio](https://jamiesec.dev/) — Personal brand and project presentation website.
 
 ---
 
@@ -105,7 +125,7 @@ I use AI tools to move faster, but I do not treat AI output as final code.
 My workflow:
 1. Convert business requirements into a clear technical task document.
 2. Ask AI tools to generate or improve implementation plans.
-3. Use Codex / Cursor to build features step by step.
+3. Use Codex / Cursor / Windsurf to build features step by step.
 4. Review code for security, database logic, auth, billing, and edge cases.
 5. Test the real product flow before claiming it is complete.
 6. Keep documentation honest: no fake customers, no fake payment links, no fake production claims.
@@ -118,13 +138,16 @@ My workflow:
 I am focused on AI SaaS products that include real application logic:
 
 - Authentication and user accounts
+- Multi-tenant workspace design
 - Credits / token billing workflows
 - AI model calls with success/failure handling
 - Usage logs and audit records
-- Admin dashboards
+- Admin and AgentOps dashboards
 - RAG with source citations
-- Document upload and parsing
-- Multi-tenant workspace design
+- Document upload, parsing, indexing, and retrieval
+- LangGraph agent workflows
+- MCP-style tool gateways
+- Human approval checkpoints
 - English / Chinese documentation for technical review
 
 ---
@@ -149,11 +172,11 @@ Email     : mohamed.gamalj8@gmail.com
 WeChat    : mgamal012
 Website   : https://jamiesec.dev/
 GitHub    : https://github.com/Shifu710
-Focus     : AI Native Full-Stack / AI SaaS / RAG Applications
+Focus     : AI Native Full-Stack / AI SaaS / RAG / Agent Workflows
 ```
 
 ---
 
 <p align="center">
-  Building AI Native full-stack products with real SaaS workflows, LLM integration, RAG, credits, usage logs, and honest documentation.
+  Building AI Native full-stack products with real SaaS workflows, RAG, agent automation, LLM integration, credits, usage logs, and honest documentation.
 </p>
